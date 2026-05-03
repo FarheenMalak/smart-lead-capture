@@ -18,7 +18,7 @@ export const Marquee = () => {
 
   return (
     <div className="border-y-2 border-[#0a1f1a] bg-[#f8f1e1] overflow-hidden py-5">
-      <div className="flex whitespace-nowrap animate-[marquee_30s_linear_infinite]">
+      <div className="flex whitespace-nowrap animate-[marquee_10s_linear_infinite]">
         {[...Array(2)].map((_, k) => (
           <div key={k} className="flex items-center gap-10 px-5 shrink-0">
             {items.map((item, i) => (

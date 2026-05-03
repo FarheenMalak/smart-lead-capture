@@ -72,16 +72,16 @@ const Index = () => {
             <div className="bg-[#0a1f1a] text-[#fdfaf3] p-8 border-2 border-[#0a1f1a]">
               <pre className="font-mono text-sm">
                 {`{
-                  "trigger": "form submit",
-                  "automation": [
-                  "validate data",
-                  "ai scoring",
-                  "store in sheets",
-                  "send email",
-                  "notify team"
-                 ],
-                "status": "instant"
-               }`}
+  "trigger": "form submit",
+  "automation": [
+    "validate data",
+    "ai scoring",
+    "store in sheets",
+    "send email",
+    "notify team"
+  ],
+  "status": "instant"
+}`}
               </pre>
             </div>
           </div>
