@@ -16,7 +16,7 @@ const leadSchema = z.object({
 
 const WEBHOOK_URL =
   process.env.NEXT_PUBLIC_N8N_WEBHOOK_URL ||
-  "https://farheenjb.app.n8n.cloud/webhook/lead-capture";
+  "https://nafgraphics.app.n8n.cloud/webhook/lead-capture";
 
 export default function LeadForm() {
   const [loading, setLoading] = useState(false);
